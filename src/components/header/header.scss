@@ -1,0 +1,21 @@
+header{
+    background-color: sandybrown ;
+    h4{
+        color: #fff;
+    }
+    nav.menu{
+        ul{
+            li{
+                a{
+                    color: #fff;
+                    display: block;
+                    padding: 15px 10px;
+                    transition: .3s ease-in-out;
+                    &:hover{
+                        background-color: #333;
+                    }
+                }
+            }
+        }
+    }
+}
